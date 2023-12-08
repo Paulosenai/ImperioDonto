@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br" class="form-screen">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="/ImperioDonto/css/main.css">
-    <link rel="shortcut icon" href="/img/Imperiodonto.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <title>Login - ImperioDonto</title>
-</head>
-<body>
+
   <div id="app">
     <section class="section main-section">
       <div class="card">
@@ -59,13 +46,16 @@
             <div class="field grouped">
               <div class="control">
                 <button type="submit" class="button blue">
-                  <a href="/ImperioDonto/index.html">
-                    Login
-                  </a>
+                  Login
                 </button>
               </div>
+              <div class="control">
+                <a href="/ImperioDonto/index.html" class="button">
+                  Voltar
+                </a>
               </div>
             </div>
+  
           </form>
         </div>
       </div>
@@ -74,27 +64,3 @@
   
   
   </div>
-  
-  <script type="text/javascript" src="js/main.min.js?v=1628755089081"></script>
-  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css">
-    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
-      <script src="assets/vendors/chart.js/Chart.min.js"></script>
-      <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
-      <script src="assets/js/off-canvas.js"></script>
-      <script src="assets/js/hoverable-collapse.js"></script>
-      <script src="assets/js/misc.js"></script>
-      <script src="assets/js/dashboard.js"></script>
-      <script src="assets/js/todolist.js"></script>  
-  
-  
-    
-
-
-      
-
-
-
-    
-
-</body>
-</html>
