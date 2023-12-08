@@ -219,7 +219,7 @@
             labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
             datasets: [
               {
-                label: "SUPRIMENTOS",
+                label: "Consulta de rotina",
                 borderColor: gradientStrokeViolet,
                 backgroundColor: gradientStrokeViolet,
                 hoverBackgroundColor: gradientStrokeViolet,
@@ -231,7 +231,7 @@
                 data: [20, 40, 15, 35, 25, 50, 30, 20]
               },
               {
-                label: "OUTROS",
+                label: "Limpeza dental",
                 borderColor: gradientStrokeRed,
                 backgroundColor: gradientStrokeRed,
                 hoverBackgroundColor: gradientStrokeRed,
@@ -243,7 +243,7 @@
                 data: [40, 30, 20, 10, 50, 15, 35, 40]
               },
               {
-                label: "FUNCIONARIOS",
+                label: "Procedimentos de cirurgia oral",
                 borderColor: gradientStrokeBlue,
                 backgroundColor: gradientStrokeBlue,
                 hoverBackgroundColor: gradientStrokeBlue,
@@ -254,6 +254,7 @@
                 fill: 'origin',
                 data: [70, 10, 30, 40, 25, 50, 15, 30]
               }
+              
           ]
         },
         options: {
@@ -440,7 +441,7 @@
 
       var gradientStrokeRed = ctx.createLinearGradient(0, 0, 0, 50);
       gradientStrokeRed.addColorStop(0, 'rgba(255, 191, 150, 1)');
-      gradientStrokeRed.addColorStop(1, 'rgba(254, 112, 150, 1)');
+      gradientStrokeRed.addColorStop(1, 'rgba(256, 112, 150, 1)');
       var gradientLegendRed = 'linear-gradient(to right, rgba(255, 191, 150, 1), rgba(254, 112, 150, 1))';
 
       var gradientStrokeGreen = ctx.createLinearGradient(0, 0, 0, 300);
@@ -450,7 +451,7 @@
 
       var trafficChartData = {
         datasets: [{
-          data: [30, 20, 40, 50],
+          data: [20, 30, 50,],
           backgroundColor: [
             gradientStrokeBlue,
             gradientStrokeGreen,
@@ -475,10 +476,9 @@
     
         
         labels: [
-          'Instrumentos Odontológicos ',
-          'Materiais Restauradores ',
-          'Anestésicos e Medicamentos ',
-          'Equipamentos de proteção',
+          'Marketing ',
+          'Referencia medica ',
+          'Recomendação por conhecidos ',
         ]
       };
       var trafficChartOptions = {

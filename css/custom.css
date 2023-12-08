@@ -53,5 +53,27 @@
   font-size: 20pt;
 }
 
+.relatorio {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: ". . . ."; 
+}
+
+.container {
+  background-color: white;
+  width: 155vh;
+  height: 70vh;
+  margin-bottom: 10vh;
+}
+
+.container  h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
 
 

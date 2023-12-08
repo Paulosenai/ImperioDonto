@@ -219,7 +219,7 @@
             labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
             datasets: [
               {
-                label: "SUPRIMENTOS",
+                label: "MANHÃ",
                 borderColor: gradientStrokeViolet,
                 backgroundColor: gradientStrokeViolet,
                 hoverBackgroundColor: gradientStrokeViolet,
@@ -231,7 +231,7 @@
                 data: [20, 40, 15, 35, 25, 50, 30, 20]
               },
               {
-                label: "OUTROS",
+                label: "TARDE",
                 borderColor: gradientStrokeRed,
                 backgroundColor: gradientStrokeRed,
                 hoverBackgroundColor: gradientStrokeRed,
@@ -243,7 +243,7 @@
                 data: [40, 30, 20, 10, 50, 15, 35, 40]
               },
               {
-                label: "FUNCIONARIOS",
+                label: "NOITE",
                 borderColor: gradientStrokeBlue,
                 backgroundColor: gradientStrokeBlue,
                 hoverBackgroundColor: gradientStrokeBlue,
@@ -450,7 +450,7 @@
 
       var trafficChartData = {
         datasets: [{
-          data: [30, 20, 40, 50],
+          data: [30, 30, 40],
           backgroundColor: [
             gradientStrokeBlue,
             gradientStrokeGreen,
@@ -475,10 +475,9 @@
     
         
         labels: [
-          'Instrumentos Odontológicos ',
-          'Materiais Restauradores ',
-          'Anestésicos e Medicamentos ',
-          'Equipamentos de proteção',
+          'DR NACHBAR ',
+          'DR VINICIUS ',
+          'DR SOCRATES ',
         ]
       };
       var trafficChartOptions = {
